@@ -4,24 +4,26 @@ export default function TopHeader() {
         <ul>
           <li>
             <a>FOLLOW @HEMautomotive</a>
-            <div>
+            <div className="Dropdown">
               <a
                 alt="Facebook Icon"
-                href="https://www.facebook.com/hemautomotive"
-              ></a>
+                href="https://www.facebook.com/hemautomotive">
+              </a>
               <a
                 alt="Instagram Icon"
-                href="https://www.instagram.com/hemautomotive"
-              ></a>
-              <a alt="X Icon" href="https://www.x.com/hemautomotive"></a>
+                href="https://www.instagram.com/hemautomotive">
+              </a>
+              <a alt="X Icon"
+                 href="https://www.x.com/hemautomotive">
+              </a>
               <a
                 alt="youtube Icon"
-                href="https://www.youtube.com/hemautomotive"
-              ></a>
+                href="https://www.youtube.com/hemautomotive">
+                </a>
               <a
                 alt="Tiktok Icon"
-                href="https://www.tiktok.com/hemautomotive"
-              ></a>
+                href="https://www.tiktok.com/hemautomotive">
+              </a>
             </div>
           </li>
           <li>
@@ -46,7 +48,7 @@ export default function TopHeader() {
           </li>
           <li>
             <a>LEAVE US A REVIEW</a>
-            <div>
+            <div className="Dropdown">
               <a alt="BBB" href="https://www.bbb.org">
                 <image src="/"></image>
               </a>
