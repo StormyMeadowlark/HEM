@@ -1,51 +1,59 @@
 export default function BottomHeader() {
     return (
-        <div>
-            <>
-                <div>
-                    <div>
-                        <div>
-                            <a>
-                                <span>SERVICES</span>
-                            </a>
-                            <a>
-                                <span>FAQ</span>
-                            </a>
-                            <a>
-                                <span>ABOUT</span>
-                            </a>
-                            <a>
-                                <span>BLOG</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a>
-                                <img
-                                    type="xml/svg"
-                                    src="./owned/HEM-Auto-Logo-Lime-Green.svg">
-                                </img>
-                            </a>
-                            <span>
-                                BREAK DOWNS WONT BREAK YOU DOWN
-                            </span>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="#">
-                                Account
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                Sign up
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </>
-        </div>
-    )
+      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack to-hemautoGray shadow-inner shadow-hemautoGreen text-hemautoWhite py-4">
+        <nav className="mx-auto flex items-center justify-between text-lg font-hemautoFontTiltWarp">
+          <div className="flex flex-1 items-center">
+            <div className="flex flex-1 justify-start mb-20">
+              <div className="flex flex-1 justify-around">
+                <a href="#">
+                  <span className="hover:text-hemautoLightGreen text-3xl">
+                    SERVICES
+                  </span>
+                </a>
+                <a href="#">
+                  <span className="hover:text-hemautoLightGreen text-3xl">
+                    FAQ
+                  </span>
+                </a>
+                <a href="#">
+                  <span className="hover:text-hemautoLightGreen text-3xl">
+                    ABOUT
+                  </span>
+                </a>
+                <a href="#">
+                  <span className="hover:text-hemautoLightGreen text-3xl">
+                    BLOG
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div className="flex flex-1 basis-1/3 justify-center">
+              <div className="flex flex-col ">
+                <a href="#">
+                  <img
+                    type="xml/svg"
+                    src="./src/assets/Images/Logo/HEM-Auto-Logo-Lime-Green.svg"
+                  ></img>
+                </a>
+                <span className="font-hemautoFontRoadRage text-balance text-5xl text-center">
+                  BREAK DOWNS WONT BREAK YOU DOWN
+                </span>
+              </div>
+            </div>
+            <div className="flex flex-1 justify-end mb-20">
+              <div className="flex flex-1 justify-around">
+                <a href="#" className="text-3xl">
+                  Account
+                </a>
+              </div>
+              <div className="flex flex-1 justify-around">
+                <a href="#" className="text-3xl">
+                  Sign up
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    );
 }
