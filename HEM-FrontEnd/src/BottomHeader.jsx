@@ -5,36 +5,36 @@ export default function BottomHeader() {
           <div className="flex flex-1 items-center">
             <div className="flex flex-1 justify-start mb-20">
               <div className="flex flex-1 justify-around">
-                <a href="#">
+                <button href="#">
                   <span className="hover:text-hemautoLightGreen text-3xl">
                     SERVICES
                   </span>
-                </a>
-                <a href="#">
+                </button>
+                <button href="#">
                   <span className="hover:text-hemautoLightGreen text-3xl">
                     FAQ
                   </span>
-                </a>
-                <a href="#">
+                </button>
+                <button href="#">
                   <span className="hover:text-hemautoLightGreen text-3xl">
                     ABOUT
                   </span>
-                </a>
-                <a href="#">
+                </button>
+                <button href="#">
                   <span className="hover:text-hemautoLightGreen text-3xl">
                     BLOG
                   </span>
-                </a>
+                </button>
               </div>
             </div>
             <div className="flex flex-1 basis-1/3 justify-center">
               <div className="flex flex-col ">
-                <a href="#">
+                <button href="#">
                   <img
                     type="xml/svg"
                     src="./src/assets/Images/Logo/HEM-Auto-Logo-Lime-Green.svg"
                   ></img>
-                </a>
+                </button>
                 <span className="font-hemautoFontRoadRage text-balance text-5xl text-center">
                   BREAK DOWNS WONT BREAK YOU DOWN
                 </span>
@@ -42,14 +42,14 @@ export default function BottomHeader() {
             </div>
             <div className="flex flex-1 justify-end mb-20">
               <div className="flex flex-1 justify-around">
-                <a href="#" className="text-3xl">
+                <button href="#" className="text-3xl">
                   Account
-                </a>
+                </button>
               </div>
               <div className="flex flex-1 justify-around">
-                <a href="#" className="text-3xl">
+                <button href="#" className="text-3xl">
                   Sign up
-                </a>
+                </button>
               </div>
             </div>
           </div>
