@@ -16,7 +16,7 @@ export default function LandingServices() {
                     <button type="button" className="w-full bg-gradient-to-br from-hemautoLightGreen via-hemautoGreen to-hemautoMediumGreen text-center hover:bg-gradient-to-b font-lg rounded-lg px-5 py-3 me-2 mb-2">BRAKES</button>
                     <button type="button" className="w-full bg-gradient-to-br from-hemautoLightGreen via-hemautoGreen to-hemautoMediumGreen text-center hover:bg-gradient-to-b font-lg rounded-lg px-5 py-3 me-2 mb-2">USED CAR INSPECTIONS</button>
                     <button type="button" className="w-full bg-gradient-to-br from-hemautoLightGreen via-hemautoGreen to-hemautoMediumGreen text-center hover:bg-gradient-to-b font-lg rounded-lg px-5 py-3 me-2 mb-2">ECONOMY & LIGHT DUTY DIESEL</button>
-                    <button type="button" className="w-full bg-gradient-to-br border  from-hemautoLightGreen via-hemautoGreen to-hemautoMediumGreen text-center hover:bg-gradient-to-b font-lg rounded-lg px-5 py-3 me-2 mb-2">ALL SERVICES</button>
+                    <button type="button" className="w-full bg-gradient-to-br from-hemautoLightGreen via-hemautoGreen to-hemautoMediumGreen text-center hover:bg-gradient-to-b font-lg rounded-lg px-5 py-3 me-2 mb-2">ALL SERVICES</button>
                 </div>
             </div>
             <div className="m-10 basis-1/2 h-96">

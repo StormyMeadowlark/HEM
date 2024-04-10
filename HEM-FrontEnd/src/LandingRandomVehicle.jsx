@@ -11,6 +11,47 @@ export default function LandingRandomVehicle() {
 
 
         maybe another section about financing avalibility?
+        Acura
+        audi
+        bmw
+        buick
+        cadillac
+        chevrolet
+        chrysler
+        dodge
+        fiat
+        ford
+        GMC
+        Genesis
+        Honda
+        Hummer
+        Hyundai
+        infiniti
+        jaguar
+        jeep
+        kia
+        land rover 
+        lexus
+        lincoln
+        Mazda
+        Mercedes-benz
+        mercury
+        mini
+        mitsubishi
+        nissan
+        oldsmobile
+        pontiac
+        porsche
+        plymouth
+        ram
+        saab
+        saturn
+        scion
+        subaru
+        suzuki
+        toyota
+        volkswagen
+        volvo
       </div>
     </div>
   );
