@@ -43,12 +43,12 @@ export default function BottomHeader() {
             <div className="flex flex-1 justify-end mb-20">
               <div className="flex flex-1 justify-around">
                 <button href="#" className="text-3xl">
-                  Account
+                  ACCOUNT (module)
                 </button>
               </div>
               <div className="flex flex-1 justify-around">
                 <button href="#" className="text-3xl">
-                  Sign up
+                  REGISTER (module)
                 </button>
               </div>
             </div>
