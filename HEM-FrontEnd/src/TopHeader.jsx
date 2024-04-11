@@ -1,4 +1,6 @@
+import useHover from "./assets/ComponentParts/Buttons/useHover"
 export default function TopHeader() {
+  const [SnapFinancingIsHovering, SnapFinancingProps] = useHover()
   return (
     <div className="bg-gradient-to-b from-hemautoBlack via-hemautoGray to-hemautoBlack shadow-inner shadow-hemautoGray px-8 py-6">
       <ul className="flex flex-row items-center justify-between text-hemautoWhite px-5">
