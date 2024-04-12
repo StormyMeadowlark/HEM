@@ -1,12 +1,10 @@
-import useHover from "./assets/ComponentParts/Buttons/useHover";
 export default function TopHeader() {
-  const [SnapFinancingIsHovering, SnapFinancingProps] = useHover()
   return (
     <div className="bg-gradient-to-b from-hemautoBlack via-hemautoGray to-hemautoBlack shadow-inner shadow-hemautoGray px-8 py-6">
-      <ul className="flex flex-row items-center justify-between text-hemautoWhite px-5">
+      <ul className="flex flex-row items-center justify-around text-hemautoWhite px-5">
         <li className="group relative dropdown font-hemautoFontRoadRage text-lg tracking-wide hover:text-hemautoGreen">
           <a className="text-3xl">FOLLOW @HEMautomotive</a>
-          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-evenly hidden bg-hemautoMediumGray py-2 rounded-bl-lg rounded-tr-lg shadow-inner shadow-hemautoWhite">
+          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-around hidden bg-hemautoMediumGray py-2 rounded-bl-lg rounded-tr-lg shadow-inner shadow-hemautoWhite">
             <a
               className="text-hemautoGreen pl-2 hover:text-hemautoLightGreen"
               alt="Facebook Icon"
@@ -71,7 +69,7 @@ export default function TopHeader() {
         </li>
         <li className="group relative dropdown font-hemautoFontRoadRage text-3xl tracking-wide hover:text-hemautoGreen">
           <a>LEAVE US A REVIEW</a>
-          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-evenly hidden bg-hemautoMediumGray py-2 rounded-br-lg rounded-tl-lg shadow-inner shadow-hemautoWhite">
+          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-around hidden bg-hemautoMediumGray py-2 rounded-br-lg rounded-tl-lg shadow-inner shadow-hemautoWhite">
             <a
               className="text-hemautoGreen pl-2 hover:text-hemautoLightGreen"
               alt="BBB"
@@ -115,12 +113,6 @@ export default function TopHeader() {
               <img src="src/assets/Images/Icons/CarFaxIcon.png"></img>
             </a>
           </div>
-        </li>
-        <li>
-        <button {...SnapFinancingProps} className="relative w-10">
-          <img src="src/assets/Images/Icons/SnapFinancingIcon.png" alt="Snap Financing Icon" className="object-cover w-full h-full hover:invisible"></img>
-          <div className="absolute w-[200px] text-xl ml-[-100px] inset-y-1/2 font-hemautoFontPlay font-extrabold">{SnapFinancingIsHovering ? "FINANCING INFORMATION" : " "}</div>
-        </button>
         </li>
       </ul>
     </div>

@@ -1,18 +1,33 @@
 import { Carousel } from "flowbite-react";
 export default function LandingServices() {
   return (
-    <div className="inline-block w-full bg-serviceBackground bg-no-repeat text-hemautoWhite bg-cover  h-[1200px]">
-      <div className="text-center font-hemautoFontUrbanist text-4xl">
-        HEM Automotive are your Topeka, KS high-end mechanics<br></br>
-        quality automotive service other independent shops can&apos;t compete
-        with<br></br>
-        prices lower than the dealerships<br></br>
-        backed by a nationwide 12 month/12,000 mile warranty<br></br>
-        top-notch customer service<br></br>
-        financing always available<br></br>
-        proudly<br></br>
-        BBB A+ and a CarFax Service Center.<br></br>
-        <button>Schedule Now!</button>
+    <div>
+      <div className="bg-hemautoTrueBlack/30 px-10 py-8 font-hemautoFontPlay">
+        <h1 className="text-7xl text-center ">
+          <span className="text-hemautoGreen">YOUR</span> Topeka, KS<br></br>
+          high-end mechanics
+        </h1>
+        <ul className="flex justify-around py-8">
+          <li>
+            <div>
+              quality automotive service other independent shops can&apos;t
+              compete with
+            </div>
+          </li>
+          <li>prices lower than the dealerships</li>
+          <li>12 month/12,000 mile nationwide warranty</li>
+          <li>top-notch customer service</li>
+          <li>financing always available</li>
+        </ul>
+        <div className="text-center">
+          proudly
+          <div>BBB A+</div>
+          <div>CarFax Service Center.</div>
+        </div>
+
+        <button className="bg-hemautoGreen text-hemautoBlack p-4 rounded-2xl ml-[33%] font-extrabold">
+          Schedule Now!
+        </button>
       </div>
       <h2 className="grid grid-cols-2 text-center font-hemautoFontUrbanist text-3xl font-bold my-10">
         SERVICES
@@ -112,7 +127,10 @@ export default function LandingServices() {
           </Carousel>
         </div>
         <div>
-          Don&apos;t let breakdowns break you down. Get customized maintenance reminders based on your driving habits and manufacturer recommendation for your specific vehicle, exclusive offers, priority scheduling, and so much more. Register learn more
+          Don&apos;t let breakdowns break you down. Get customized maintenance
+          reminders based on your driving habits and manufacturer recommendation
+          for your specific vehicle, exclusive offers, priority scheduling, and
+          so much more. Register learn more
         </div>
       </div>
     </div>

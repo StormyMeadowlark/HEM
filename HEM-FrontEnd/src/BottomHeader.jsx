@@ -1,7 +1,7 @@
 export default function BottomHeader() {
     return (
-      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack to-hemautoGray shadow-inner shadow-hemautoTrueBlack text-hemautoWhite py-4">
-        <nav className="mx-auto flex items-center justify-between text-lg font-hemautoFontTiltWarp">
+      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack to-hemautoGray/0 shadow-inner shadow-hemautoTrueBlack text-hemautoWhite py-4">
+        <nav className="mx-auto flex items-center justify-around text-lg font-hemautoFontTiltWarp">
           <div className="flex flex-1 items-center">
             <div className="flex flex-1 justify-start mb-20">
               <div className="flex flex-1 justify-around">
@@ -27,7 +27,7 @@ export default function BottomHeader() {
                 </button>
               </div>
             </div>
-            <div className="flex flex-1 basis-1/3 justify-center">
+            <div className="flex flex-1 max-h-[300px] justify-center">
               <div className="flex flex-col ">
                 <button href="#">
                   <img
@@ -40,7 +40,7 @@ export default function BottomHeader() {
                 </span>
               </div>
             </div>
-            <div className="flex flex-1 justify-end mb-20">
+            <div className="flex flex-1 justify-around mb-20 ">
               <div className="flex flex-1 justify-around">
                 <button href="#" className="text-3xl">
                   ACCOUNT (module)
