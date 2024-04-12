@@ -118,7 +118,7 @@ export default function TopHeader() {
         </li>
         <li>
         <button {...SnapFinancingProps} className="relative w-10">
-          <img src="src/assets/Images/Icons/SnapFinancingIcon.png" alt="Snap Financing Icon" class="object-cover w-full h-full hover:invisible"></img>
+          <img src="src/assets/Images/Icons/SnapFinancingIcon.png" alt="Snap Financing Icon" className="object-cover w-full h-full hover:invisible"></img>
           <div className="absolute w-[200px] text-xl ml-[-100px] inset-y-1/2 font-hemautoFontPlay font-extrabold">{SnapFinancingIsHovering ? "FINANCING INFORMATION" : " "}</div>
         </button>
         </li>
