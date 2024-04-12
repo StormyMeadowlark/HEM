@@ -31,6 +31,7 @@ export default {
       hemautoMediumGreen: "#007f00",
       hemautoDarkGreen: "#003300",
       hemautoTrueWhite: "#ffffff",
+      hemautoTrueBlack: "#000000",
       hemautoTransparent: "#00000000",
     },
     container: {

@@ -1,6 +1,6 @@
 export default function BottomHeader() {
     return (
-      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack to-hemautoGray shadow-inner shadow-hemautoGreen text-hemautoWhite py-4">
+      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack to-hemautoGray shadow-inner shadow-hemautoTrueBlack text-hemautoWhite py-4">
         <nav className="mx-auto flex items-center justify-between text-lg font-hemautoFontTiltWarp">
           <div className="flex flex-1 items-center">
             <div className="flex flex-1 justify-start mb-20">
