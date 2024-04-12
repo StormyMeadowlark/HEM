@@ -1,8 +1,8 @@
 import { Carousel } from "flowbite-react";
 export default function LandingServices() {
     return (
-      <div className="flex bg-serviceBackground bg-no-repeat text-hemautoWhite">
-        <div>
+      <div className="flex bg-serviceBackground bg-no-repeat text-hemautoWhite bg-cover">
+        <div className="h-[1200px]">
           <h1 className="grid grid-cols-1 font-hemautoFontUrbanist text-3xl font-bold">
             SERVICES
           </h1>

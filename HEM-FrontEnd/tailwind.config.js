@@ -5,7 +5,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/lib/esm/**/*.js",
-    flowbite.content()
+    flowbite.content(),
   ],
   theme: {
     screens: {
@@ -44,17 +44,15 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "serviceBackground":
+        serviceBackground:
           "url(./src/assets/Images/Background/greenLitHexagons.svg)",
+        PlatformBackground:
+          "url(./src/assets/Images/Background/Platform.png)",
       },
     },
     variants: {
       display: ["group-hover"],
     },
-    plugins: [
-      "flowbite/plugin",
-      flowbite.plugin(),
-    ],
-
+    plugins: ["flowbite/plugin", flowbite.plugin()],
   },
 };
