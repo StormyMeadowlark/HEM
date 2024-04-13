@@ -1,6 +1,4 @@
-//github.com/leandrowd/react-responsive-carousel/blob/master/stories/01-basic.tsx
-https: import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import Gallery from "./Carousel";
 
 export default function LandingServices() {
   return (
@@ -10,17 +8,30 @@ export default function LandingServices() {
           <span className="text-hemautoGreen">YOUR</span> Topeka, KS<br></br>
           high-end mechanics
         </h1>
-        <ul className="flex justify-around py-8">
-          <li>
+        <ul className="flex py-8 px-4 justify-evenly bg-hemautoTrueWhite">
+          <li className="bg-hemautoGray py-8 px-4 ">
+            <div className="bg-hemautoMediumGreen text-center">Look words</div>
             <div>
               quality automotive service other independent shops can&apos;t
               compete with
             </div>
           </li>
-          <li>prices lower than the dealerships</li>
-          <li>12 month/12,000 mile nationwide warranty</li>
-          <li>top-notch customer service</li>
-          <li>financing always available</li>
+          <li className="bg-hemautoGray py-8 px-4">
+            <div className="bg-hemautoMediumGreen text-center">Look words</div>
+            <div>prices lower than the dealerships</div>
+          </li>
+          <li className="bg-hemautoGray py-8 px-4">
+            <div className="bg-hemautoMediumGreen text-center">Look words</div>
+            <div>12 month/12,000 mile nationwide warranty</div>
+          </li>
+          <li className="bg-hemautoGray py-8 px-4">
+            <div className="bg-hemautoMediumGreen text-center">Look words</div>
+            <div>top-notch customer service</div>
+          </li>
+          <li className="bg-hemautoGray py-8 px-4 ">
+            <div className="bg-hemautoMediumGreen text-center">Look words</div>
+            <div>financing always available</div>
+          </li>
         </ul>
         <div className="text-center">
           proudly
@@ -35,8 +46,8 @@ export default function LandingServices() {
       <h2 className="grid grid-cols-2 text-center font-hemautoFontUrbanist text-3xl font-bold my-10">
         SERVICES
       </h2>
-      <div className="grid grid-cols-2">
-        <div className="grid grid-cols-2 gap-4 font-hemautoFontPlay font-bold text-hemautoDarkGray">
+      <div className="grid grid-cols-2 px-8 gap-x-8">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-8 font-hemautoFontPlay font-bold text-hemautoDarkGray place-items-around">
           <button
             type="button"
             className="w-full max-h-20 bg-gradient-to-b from-hemautoLightGreen via-hemautoGreen to-hemautoMediumGreen text-center hover:bg-gradient-to-tl font-lg rounded-lg px-5 py-3 me-2 mb-2 shadow-inner shadow-hemautoDarkGray"
@@ -110,27 +121,8 @@ export default function LandingServices() {
             ALL SERVICES
           </button>
         </div>
-        <div className="m-10 basis-1/2 h-96">
-          <Carousel
-            autoPlay
-            interval={1000}
-            infiniteLoop
-            transitionTime={500}
-            stopOnHover
-          >
-            <img
-              src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-              alt="..."
-            ></img>
-            <img
-              src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-              alt="..."
-            ></img>
-            <img
-              src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-              alt="..."
-            ></img>
-          </Carousel>
+        <div className="bg-hemautoBlack place-object-center h-96">
+          <Gallery />
         </div>
         <div>
           Don&apos;t let breakdowns break you down. Get customized maintenance

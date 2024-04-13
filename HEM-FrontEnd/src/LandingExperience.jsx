@@ -4,7 +4,7 @@ export default function LandingExperience() {
   const [RetailIsHovering, RetailHoverProps] = useHover()
   const [DealershipIsHovering, DealershipHoverProps] = useHover()
   return (
-    <div className="bg-hemautoTrueBlack text-hemautoWhite">
+    <div className="text-hemautoWhite">
       <h1 className="flex text-center justify-center font-hemautoFontUrbanist text-8xl">
         AUTO REPAIR<br></br>FOR<br></br>YOU & YOUR BUSINESS
       </h1>
