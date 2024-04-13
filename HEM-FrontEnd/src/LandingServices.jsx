@@ -1,4 +1,7 @@
-import { Carousel } from "flowbite-react";
+//github.com/leandrowd/react-responsive-carousel/blob/master/stories/01-basic.tsx
+https: import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 export default function LandingServices() {
   return (
     <div>
@@ -108,19 +111,22 @@ export default function LandingServices() {
           </button>
         </div>
         <div className="m-10 basis-1/2 h-96">
-          <Carousel pauseOnHover>
+          <Carousel
+            autoPlay
+            interval={1000}
+            infiniteLoop
+            transitionTime={500}
+            stopOnHover
+          >
             <img
-              className="ease-in-out"
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt="..."
             ></img>
             <img
-              className="ease-in-out"
               src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
               alt="..."
             ></img>
             <img
-              className="ease-in-out"
               src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
               alt="..."
             ></img>
