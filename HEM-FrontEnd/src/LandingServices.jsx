@@ -1,48 +1,11 @@
 import Gallery from "./Carousel";
+import Features from "./Features";
 
 export default function LandingServices() {
   return (
     <div>
-      <div className="bg-hemautoTrueBlack/30 px-10 py-8 font-hemautoFontPlay">
-        <h1 className="text-7xl text-center ">
-          <span className="text-hemautoGreen">YOUR</span> Topeka, KS<br></br>
-          high-end mechanics
-        </h1>
-        <ul className="flex py-8 px-4 justify-evenly bg-hemautoTrueWhite">
-          <li className="bg-hemautoGray py-8 px-4 ">
-            <div className="bg-hemautoMediumGreen text-center">Look words</div>
-            <div>
-              quality automotive service other independent shops can&apos;t
-              compete with
-            </div>
-          </li>
-          <li className="bg-hemautoGray py-8 px-4">
-            <div className="bg-hemautoMediumGreen text-center">Look words</div>
-            <div>prices lower than the dealerships</div>
-          </li>
-          <li className="bg-hemautoGray py-8 px-4">
-            <div className="bg-hemautoMediumGreen text-center">Look words</div>
-            <div>12 month/12,000 mile nationwide warranty</div>
-          </li>
-          <li className="bg-hemautoGray py-8 px-4">
-            <div className="bg-hemautoMediumGreen text-center">Look words</div>
-            <div>top-notch customer service</div>
-          </li>
-          <li className="bg-hemautoGray py-8 px-4 ">
-            <div className="bg-hemautoMediumGreen text-center">Look words</div>
-            <div>financing always available</div>
-          </li>
-        </ul>
-        <div className="text-center">
-          proudly
-          <div>BBB A+</div>
-          <div>CarFax Service Center.</div>
-        </div>
+      <Features />
 
-        <button className="bg-hemautoGreen text-hemautoBlack p-4 rounded-2xl ml-[33%] font-extrabold">
-          Schedule Now!
-        </button>
-      </div>
       <h2 className="grid grid-cols-2 text-center font-hemautoFontUrbanist text-3xl font-bold my-10">
         SERVICES
       </h2>
