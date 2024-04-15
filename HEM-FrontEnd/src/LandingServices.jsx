@@ -1,11 +1,8 @@
 import Gallery from "./Carousel";
-import Features from "./Features";
 
 export default function LandingServices() {
   return (
     <div>
-      <Features />
-
       <h2 className="grid grid-cols-2 text-center font-hemautoFontUrbanist text-3xl font-bold my-10">
         SERVICES
       </h2>

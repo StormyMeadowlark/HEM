@@ -71,10 +71,6 @@ export default function Features() {
               ))}
             </div>
           </div>
-          <div>
-            <p>BBB A+ certified</p>
-            <p>Carfax Care Care Service Center</p>
-          </div>
         </div>
       </div>
     );
