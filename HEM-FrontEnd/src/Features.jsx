@@ -34,42 +34,38 @@ const features = [
 
 export default function Features() {
     return (
-      <div className="relative bg-white py-24 sm:py-32 lg:py-40">
-        <div className="px-10 py-8 font-hemautoFontPlay">
-          <h1 className="text-7xl text-center ">
-            <span className="text-hemautoGreen">YOUR</span> Topeka, KS<br></br>
-            high-end mechanics
-          </h1>
-          <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500 text-center">
-            full service auto care for most makes & models 2000 and newer.
-          </p>
-          <div className="mt-20">
-            <div className="grid grid-cols-3">
-              {features.map((feature) => (
-                <div key={feature.name} className="">
-                  <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 text-center">
-                    <div className="-mt-6">
-                      <div>
-                        <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
-                          <feature.icon
-                            className="h-8 w-8 text-white"
-                            aria-hidden="true"
-                          />
-                        </span>
-                      </div>
-                      <div className="bg-hemautoBlack/100 justify-evenly py-11">
-                        <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
-                          {feature.name}
-                        </h3>
-                        <p className="leading-7 text-gray-600">
-                          {feature.description}
-                        </p>
-                      </div>
+      <div className="px-10 py-8">
+        <h1 className="text-7xl text-center font-hemautoFontPlay text-hemautoLightGray">
+          <span className="text-hemautoGreen font-extrabold">YOUR</span> Topeka,
+          KS<br></br>
+          high-end mechanics
+        </h1>
+        <p className="mx-auto mt-5 max-w-prose text-xl font-hemautoFontUrbanist font-light text-center">
+          full service auto care for most makes & models 2000 and newer.
+        </p>
+        <div className="mt-20">
+          <div className="grid grid-cols-3">
+            {features.map((feature) => (
+              <div key={feature.name} className="">
+                <div className="rounded-lg bg-gray-50 px-6 pb-8 text-center">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center rounded-xl p-3 shadow-lg">
+                        <feature.icon className="h-8 w-8" aria-hidden="true" />
+                      </span>
+                    </div>
+                    <div className="justify-evenly shadow-md shadow-hemautoGreen/50 rounded-3xl">
+                      <h3 className="bg-hemautoGray/75 h-20 p-4 text-4xl font-hemautoFontPlay font-semibold rounded-t-3xl ">
+                        {feature.name}
+                      </h3>
+                      <p className="bg-hemautoGray/75 text-hemautoLightGray h-20 px-24 text-2xl font-hemautoFontUrbanist font-medium rounded-b-3xl ">
+                        {feature.description}
+                      </p>
                     </div>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -3,13 +3,11 @@
  function CarFaxImg() {
     console.log(CarFax);
     return (
-      <div className="flex justify-center">
         <img
-          className="w-1/6 object-center"
+          className="w-1/6"
           src={CarFax}
           alt="Car Fax Service Center Badge"
         />
-      </div>
     );
  }
 
