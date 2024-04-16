@@ -1,9 +1,9 @@
-import useHover from "./assets/ComponentParts/Buttons/useHover"
+import useHover from "./useHover"
+
 export default function LandingExperience() {
   const [FleetIsHovering, FleetHoverProps] = useHover()
   const [RetailIsHovering, RetailHoverProps] = useHover()
   const [DealershipIsHovering, DealershipHoverProps] = useHover()
-  const [CTAIsHovering, CTAHoverProps] = useHover()
   return (
     <div className="text-hemautoWhite">
       <h1 className="green-text-shadow text-center justify-center font-extrabold font-hemautoFontUrbanist text-6xl my-20 text-hemautoLightGray">
@@ -41,17 +41,6 @@ export default function LandingExperience() {
           ></img>
           <div className="absolute w-full text-3xl text-center inset-y-1/2 font-hemautoFontPlay font-extrabold">
             {DealershipIsHovering ? "Dealership Info Here" : "DEALERSHIP"}
-          </div>
-        </button>
-      </div>
-      <div className="flex text-center justify-center font-hemautoFontUrbanist text-3xl">
-        <h2>
-          <div>No matter the number or type of vehicles you have</div>
-          <div>we make sure breakdowns won&apos;t break you down!</div>
-        </h2>
-        <button {...CTAHoverProps}>
-          <div>
-            {CTAIsHovering ? "Click Here" : "Learn More"}
           </div>
         </button>
       </div>

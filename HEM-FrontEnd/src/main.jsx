@@ -7,7 +7,7 @@ import LandingServices from './LandingServices.jsx'
 import LandingExperience from './LandingExperience.jsx'
 import Features from './Features.jsx';
 import ShoutOuts from './ShoutOuts.jsx';
-
+import ExperienceCTA from './ExperienceCTA.jsx';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,5 +17,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ShoutOuts />
     <LandingServices />
     <LandingExperience />
+    <ExperienceCTA />
   </React.StrictMode>
 );
