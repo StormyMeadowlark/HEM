@@ -40,8 +40,8 @@ export default function Features() {
           KS<br></br>
           high-end mechanics
         </h1>
-        <p className="mx-auto mt-5 max-w-prose text-xl font-hemautoFontUrbanist font-light text-center">
-          full service auto care for most makes & models 2000 and newer.
+        <p className="mx-auto mt-5 max-w-prose text-2xl font-hemautoFontUrbanist font-light text-center">
+          Providing full service auto repair<br></br> for most makes & models manufactured after 2000.
         </p>
         <div className="mt-20">
           <div className="grid grid-cols-3">

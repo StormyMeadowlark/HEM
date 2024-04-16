@@ -11,7 +11,7 @@ export default function LandingServices() {
         <div className="basis-[40%]">
           <Services />
         </div>
-        <div className="bg-hemautoBlack basis-1/2 h-96">
+        <div className="h-[500px] basis-1/2">
           <Gallery />
       </div>
       </div>

@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.green-cta-text-shadow {
+    text-shadow: #007f00 2px 2px 5px;
+}
