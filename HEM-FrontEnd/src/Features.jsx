@@ -2,7 +2,7 @@ const features = [
   {
     name: "QUALITY",
     description:
-      "We take the highest precautions when it comes to the safety of your vehicle",
+      "We ensure your vehicle's safety by using lint-free cloths to clean engine parts, placing protective barriers between the technician & your vehicle, & utilizing reliable OEM or aftermarket parts.",
     icon: "words",
   },
   {
@@ -12,12 +12,14 @@ const features = [
   },
   {
     name: "WARRANTY",
-    description: "You get a 12 month/12,000 mile nationwide warranty on most parts & labor at no extra cost",
+    description:
+      "You get a 12 month/12,000 mile nationwide warranty on most parts & labor at no extra cost",
     icon: "words",
   },
   {
     name: "CUSTOMER SERVICE",
-    description: "text messageing, reminders, tech communication",
+    description:
+      "Our unmatched customer service provides you with customized maintenance & appointment reminders based on your vehicle & driving habits",
     icon: "words",
   },
   {
@@ -58,7 +60,7 @@ export default function Features() {
                       <h3 className="bg-hemautoGray/75 h-20 p-4 text-4xl font-hemautoFontPlay font-semibold rounded-t-3xl ">
                         {feature.name}
                       </h3>
-                      <p className="bg-hemautoGray/75 text-hemautoLightGray h-20 px-24 text-2xl font-hemautoFontUrbanist font-medium rounded-b-3xl ">
+                      <p className="bg-hemautoGray/75 text-hemautoLightGray h-40 px-24 text-2xl font-hemautoFontUrbanist font-medium rounded-b-3xl ">
                         {feature.description}
                       </p>
                     </div>

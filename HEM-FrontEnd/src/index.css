@@ -5,3 +5,7 @@
 .green-cta-text-shadow {
     text-shadow: #007f00 2px 2px 5px;
 }
+
+.green-text-shadow {
+    text-shadow: #007f00 1px 0px 1px, #007f00 0px 1px 1px, #007f00 -1px 0px 1px, #007f00 0px -1px 1px;
+}

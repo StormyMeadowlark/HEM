@@ -16,7 +16,7 @@ export default function ShoutOuts() {
           </div>
         </div>
         <div className="flex justify-center pl-[33%]">
-          <button className="relative w-[750px]">
+          <button className="relative w-[750px] hover:scale-125 transition duration-500 ease-in-out">
             <GreenCTA />
             <p className="green-cta-text-shadow absolute w-full inset-y-[45%] text-5xl font-hemautoUrbanist font-extrabold text-hemautoGray">CALL TO SCHEDULE</p>
           </button>

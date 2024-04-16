@@ -3,7 +3,7 @@ import Services from "./services";
 
 export default function LandingServices() {
   return (
-    <div>
+    <div className="my-20">
       <h2 className="text-center font-hemautoFontUrbanist text-7xl font-bold my-10">
         SERVICES
       </h2>
@@ -14,12 +14,6 @@ export default function LandingServices() {
         <div className="h-[500px] basis-1/2">
           <Gallery />
       </div>
-      </div>
-      <div>
-          Don&apos;t let breakdowns break you down. Get customized maintenance
-          reminders based on your driving habits and manufacturer recommendation
-          for your specific vehicle, exclusive offers, priority scheduling, and
-          so much more. Register learn more
       </div>
     </div>
   );
