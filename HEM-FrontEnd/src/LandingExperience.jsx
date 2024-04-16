@@ -40,7 +40,7 @@ export default function LandingExperience() {
           </div>
         </button>
       </div>
-      <div className="flex text-center justify-center font-hemautoFontUrbanist text-8xl">
+      <div className="flex text-center justify-center font-hemautoFontUrbanist text-2xl">
           <button>LEARN MORE</button>
           <h2>FOR A PERSONALIZED EXPERIENCE</h2>
           <button>REGISTER</button>
