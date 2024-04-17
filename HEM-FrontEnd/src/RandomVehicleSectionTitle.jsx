@@ -1,10 +1,24 @@
 export default function RandomVehicleSectionTitle() {
     return (
-      <div className="flex px-10 py-10 justify-center">
-        <h2 className="text-3xl">
-          your local high-end mechanics provide full service maintenance &
-          repair for almost all makes & models of vehicles from the 21st century
-        </h2>
+      <div className="flex px-20 pt-10 justify-evenly font-hemautoFontPlay py-10">
+        <h3 className="text-9xl text-center font-extrabold pr-20">
+          MAKES & MODELS
+        </h3>
+        <div>
+          <h2 className="text-3xl text-center text-hemautoLightGray">
+            We provide Topeka, KS & the surrounding area with<br></br>
+            high quality full-service automotive maintenance & repair<br></br>
+            for most makes & models from the 21st century.
+          </h2>
+          <p className="text-center text-hemautoLightGray">
+            For service information on vehicles manufactured 2000 & before
+          </p>
+          <div className="text-center text-hemautoGreen">
+            <button>
+              Contact US
+            </button>
+          </div>
+        </div>
       </div>
     );
 }

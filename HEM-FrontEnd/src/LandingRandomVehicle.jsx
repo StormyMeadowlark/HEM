@@ -1,28 +1,35 @@
+import RandomVehicleSectionTitle from "./RandomVehicleSectionTitle";
 export default function LandingRandomVehicle() {
   return (
     <div className="bg-hemautoDarkGray">
-      <div className="bg-PlatformBackground bg-top text-hemautoWhite bg-no-repeat bg-cover h-[1500px]">
-          <div className="h-[200px] shadow-xl flex justify-around text-7xl font-hemautoFontRoadRage text-hemautoGreen">
-            <button className="bg-gradient-to-br from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:bg-gradient-to-tr">
-              CAR
+      <div className="bg-PlatformBackground bg-top text-hemautoWhite bg-no-repeat bg-cover w-full h-[1250px]">
+        <RandomVehicleSectionTitle />
+        <div className="px-40 shadow-xl flex text-7xl font-hemautoFontRoadRage text-hemautoGreen">
+          <button className="p-6 mx-8 rounded-3xl transition ease-in-out bg-gradient-to-tr from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:scale-[99%] duration-300">
+            CAR
+          </button>
+          <button className="p-6 mx-8 rounded-3xl transition ease-in-out bg-gradient-to-tr from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:scale-[99%] duration-300">
+            TRUCK
+          </button>
+          <button className="p-6 mx-8 rounded-3xl transition ease-in-out bg-gradient-to-tr from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:scale-[99%] duration-300">
+            SUV
+          </button>
+          <button className="p-6 mx-8 rounded-3xl transition ease-in-out bg-gradient-to-tr from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:scale-[99%] duration-300">
+            VAN
+          </button>
+        </div>
+        <div className="flex flex-row-reverse mx-56 my-10">
+          <div className="transition ease-in-out basis-[15%] text-center silverbg py-4 rounded skew-x-[-30deg] shadow-inner shadow-hemautoGreen hover:scale-110 duration-300">
+            <button className="skew-x-[30deg] font-hemautoFontPlay font-extrabold text-xl text-hemautoGreen green-text-shadow">
+              View All Makes & Models
             </button>
-            <button className="bg-gradient-to-br from-hemautoDarkGray via-hemautoGray to-hemautoMediumGray shadow-inner shadow-hemautoLightGray basis-1/4 hover:shadow-hemautoBlack hover:bg-gradient-to-tr">
-              TRUCK
-            </button>
-            <button className="bg-gradient-to-br from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:bg-gradient-to-tr">
-              SUV
-            </button>
-            <button className="bg-gradient-to-br from-hemautoDarkGray via-hemautoGray to-hemautoMediumGray shadow-inner shadow-hemautoLightGray basis-1/4 hover:shadow-hemautoBlack hover:bg-gradient-to-tr">
-              VAN
-            </button>
-          </div>
-          <div className="h-[1000px]">random images will go here</div>
-          <div className="inline">
-            <button>View All Makes & Models</button>
-            <h3>for service information on vehicles manufactured before 2000</h3>
-            <button>Contact US</button>
           </div>
         </div>
+        <div className="h-[750px]">
+          random images will go here
+          <img></img>
+        </div>
       </div>
+    </div>
   );
 }

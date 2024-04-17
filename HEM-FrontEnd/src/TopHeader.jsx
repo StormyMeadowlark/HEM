@@ -4,7 +4,7 @@ export default function TopHeader() {
       <ul className="flex flex-row items-center justify-around text-hemautoWhite px-5">
         <li className="group relative dropdown font-hemautoFontRoadRage text-lg tracking-wide hover:text-hemautoGreen">
           <a className="text-3xl">FOLLOW @HEMautomotive</a>
-          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-around hidden bg-hemautoMediumGray py-2 rounded-bl-lg rounded-tr-lg shadow-inner shadow-hemautoWhite">
+          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-around hidden silverbg py-2 rounded-bl-lg rounded-tr-lg shadow-inner shadow-hemautoBlack">
             <a
               className="text-hemautoGreen pl-2 hover:text-hemautoLightGreen"
               alt="Facebook Icon"
@@ -69,7 +69,7 @@ export default function TopHeader() {
         </li>
         <li className="group relative dropdown font-hemautoFontRoadRage text-3xl tracking-wide hover:text-hemautoGreen">
           <a>LEAVE US A REVIEW</a>
-          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-around hidden bg-hemautoMediumGray py-2 rounded-br-lg rounded-tl-lg shadow-inner shadow-hemautoWhite">
+          <div className="w-72 group-hover:flex flex-row dropdown-menu absolute justify-around hidden silverbg py-2 rounded-br-lg rounded-tl-lg shadow-inner shadow-hemautoBlack">
             <a
               className="text-hemautoGreen pl-2 hover:text-hemautoLightGreen"
               alt="BBB"
