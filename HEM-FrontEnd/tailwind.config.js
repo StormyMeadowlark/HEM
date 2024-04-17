@@ -47,8 +47,8 @@ export default {
       backgroundImage: {
         serviceBackground:
           "url(./src/assets/Images/Background/greenLitHexagons.svg)",
-        PlatformBackground:
-          "url(./src/assets/Images/Background/Platform.png)",
+        PlatformBackground: "url(./src/assets/Images/Background/Platform.png)",
+        reasonsBackground: "url(./src/assets/Images/Background/ReasonsWhyBackground.png)",
       },
     },
     variants: {
