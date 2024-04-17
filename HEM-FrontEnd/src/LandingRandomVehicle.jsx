@@ -2,12 +2,6 @@ export default function LandingRandomVehicle() {
   return (
     <div className="bg-hemautoDarkGray">
       <div className="bg-PlatformBackground bg-top text-hemautoWhite bg-no-repeat bg-cover h-[1500px]">
-        <div>
-          <div>
-            your local high-end mechanics provide full service maintenance &
-            repair for almost all makes & models of vehicles from the 21st
-            century
-          </div>
           <div className="h-[200px] shadow-xl flex justify-around text-7xl font-hemautoFontRoadRage text-hemautoGreen">
             <button className="bg-gradient-to-br from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:bg-gradient-to-tr">
               CAR
@@ -30,6 +24,5 @@ export default function LandingRandomVehicle() {
           </div>
         </div>
       </div>
-    </div>
   );
 }

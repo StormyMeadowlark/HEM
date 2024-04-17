@@ -40,10 +40,12 @@ export default function Features() {
         <h1 className="text-7xl text-center font-hemautoFontPlay text-hemautoLightGray">
           <span className="text-hemautoGreen font-extrabold">YOUR</span> Topeka,
           KS<br></br>
-          high-end mechanics
+          high-end mechanics.
         </h1>
-        <p className="mx-auto mt-5 max-w-prose text-2xl font-hemautoFontUrbanist font-light text-center">
-          Providing full service auto repair<br></br> for most makes & models manufactured after 2000.
+        <p className="mx-auto mt-5 max-w-prose text-3xl font-hemautoFontUrbanist font-light text-center">
+          Providing full-service maintenance & repair<br></br>
+          for most automotive & light-duty diesel<br></br>
+          makes & models manufactured after 2000.
         </p>
         <div className="mt-20">
           <div className="grid grid-cols-3">

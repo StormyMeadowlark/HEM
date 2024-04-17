@@ -8,6 +8,7 @@ import LandingExperience from './LandingExperience.jsx'
 import Features from './Features.jsx';
 import ShoutOuts from './ShoutOuts.jsx';
 import ExperienceCTA from './ExperienceCTA.jsx';
+import RandomVehicleSectionTitle from './RandomVehicleSectionTitle.jsx';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,5 +19,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <LandingServices />
     <LandingExperience />
     <ExperienceCTA />
+    <RandomVehicleSectionTitle />
   </React.StrictMode>
 );
