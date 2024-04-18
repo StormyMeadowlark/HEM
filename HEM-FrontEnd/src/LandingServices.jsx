@@ -3,7 +3,7 @@ import Services from "./services";
 
 export default function LandingServices() {
   return (
-    <div className="my-20">
+    <div className="bg-ServicesBackground bg-cover bg-no-repeat bg-bottom my-20">
       <h2 className="text-center font-hemautoFontUrbanist text-7xl font-bold my-10">
         SERVICES
       </h2>

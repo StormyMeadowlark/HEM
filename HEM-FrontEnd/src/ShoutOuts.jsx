@@ -3,7 +3,7 @@ import GreenCTA from "./GreenCTA";
 
 export default function ShoutOuts() {
     return (
-      <div>
+      <div className="bg-ShoutOutBackground bg-no-repeat bg-top bg-cover outline outline-hemautoTrueBlack ">
         <p className="text-center font-hemautoFontRoadRage text-9xl pb-8">
           Our service shop is proudly backed by:
         </p>

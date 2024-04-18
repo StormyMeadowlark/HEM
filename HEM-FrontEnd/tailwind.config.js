@@ -52,6 +52,10 @@ export default {
           "url(./src/assets/Images/Background/ReasonsWhyBackground.png)",
         TestimonialBackground:
           "url(./src/assets/Images/Background/TestimonialBackground.png)",
+        ShoutOutBackground:
+          "url(./src/assets/Images/Background/ShoutOutBackground.png)",
+        ServicesBackground:
+          "url(./src/assets/Images/Background/ServicesBackground.png)",
       },
     },
     variants: {
