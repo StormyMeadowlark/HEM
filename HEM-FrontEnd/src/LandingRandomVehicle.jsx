@@ -2,7 +2,7 @@ import RandomVehicleSectionTitle from "./RandomVehicleSectionTitle";
 export default function LandingRandomVehicle() {
   return (
     <div className="bg-hemautoDarkGray">
-      <div className="bg-PlatformBackground bg-top text-hemautoWhite bg-no-repeat bg-cover w-full h-[1250px]">
+      <div className="bg-PlatformBackground bg-top text-hemautoWhite bg-no-repeat bg-contain w-[100%]">
         <RandomVehicleSectionTitle />
         <div className="px-40 shadow-xl flex text-7xl font-hemautoFontRoadRage text-hemautoGreen">
           <button className="p-6 mx-8 rounded-3xl transition ease-in-out bg-gradient-to-tr from-hemautoMediumGreen via-hemautoGreen to-hemautoLightGreen basis-1/4 text-hemautoDarkGray shadow-inner shadow-hemautoLightGreen hover:shadow-hemautoGray hover:scale-[99%] duration-300">
@@ -25,7 +25,7 @@ export default function LandingRandomVehicle() {
             </button>
           </div>
         </div>
-        <div className="h-[750px]">
+        <div className="h-[900px]">
           random images will go here
           <img></img>
         </div>
