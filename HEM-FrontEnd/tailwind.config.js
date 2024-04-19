@@ -60,6 +60,10 @@ export default {
           "url(./src/assets/Images/Background/mainmiddleBackground.png)",
         HexagonCarbonFiber:
           "url(./src/assets/Images/Background/HexagonCarbonFiber.png)",
+        OnlineOffers:
+          "url(./src/assets/Images/Background/OnlineOffers.png)",
+        FooterBackground:
+          "url(./src/assets/Images/Background/Footer.png)",
       },
     },
     variants: {
