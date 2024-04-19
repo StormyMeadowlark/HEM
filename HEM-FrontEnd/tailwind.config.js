@@ -56,6 +56,10 @@ export default {
           "url(./src/assets/Images/Background/ShoutOutBackground.png)",
         ServicesBackground:
           "url(./src/assets/Images/Background/ServicesBackground.png)",
+        mainmiddleBackground:
+          "url(./src/assets/Images/Background/mainmiddleBackground.png)",
+        HexagonCarbonFiber:
+          "url(./src/assets/Images/Background/HexagonCarbonFiber.png)",
       },
     },
     variants: {

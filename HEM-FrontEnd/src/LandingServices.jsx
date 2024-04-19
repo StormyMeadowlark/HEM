@@ -3,7 +3,7 @@ import Services from "./services";
 
 export default function LandingServices() {
   return (
-    <div className="bg-ServicesBackground bg-cover bg-no-repeat bg-bottom my-20">
+    <div className="bg-HexagonCarbonFiber bg-contain bg-top py-96">
       <h2 className="text-center font-hemautoFontUrbanist text-7xl font-bold my-10">
         SERVICES
       </h2>
@@ -13,7 +13,7 @@ export default function LandingServices() {
         </div>
         <div className="h-[500px] basis-1/2">
           <Gallery />
-      </div>
+        </div>
       </div>
     </div>
   );
