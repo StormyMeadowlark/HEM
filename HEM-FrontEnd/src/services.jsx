@@ -1,41 +1,41 @@
 const services = [
-    {
-        ServiceName: "A/C HEATING"
-    },
-    {
-        ServiceName: "TIRES"
-    },
-    {
-        ServiceName: "DIAGNOSTICS"
-    },
-    {
-        ServiceName: "REMOVE & REPLACE"
-    },
-    {
-        ServiceName: "BRAKES"
-    },
-    {
-        ServiceName: "ECONOMY & LIGHT DUTY DIESEL"
-    },
-    {
-        ServiceName: "STEERING & SUSPENSION"
-    },
-    {
-        ServiceName: "ALIGNMENTS"
-    },
-    {
-        ServiceName: "ELECTRICAL"
-    },
-    {
-        ServiceName: "PREVENTATIVE MAINTENANCE"
-    },
-    {
-        ServiceName: "USED CAR INSPECTIONS"
-    },
-    {
-        ServiceName: "ALL SERVICES"
-    },
-]
+  {
+    ServiceName: "PREVENTATIVE MAINTENANCE",
+  },
+  {
+    ServiceName: "DIAGNOSTICS",
+  },
+  {
+    ServiceName: "TIRES",
+  },
+  {
+    ServiceName: "ALIGNMENTS",
+  },
+  {
+    ServiceName: "BRAKES",
+  },
+  {
+    ServiceName: "STEERING & SUSPENSION",
+  },
+  {
+    ServiceName: "REMOVE & REPLACE",
+  },
+  {
+    ServiceName: "A/C & HEATING",
+  },
+  {
+    ServiceName: "ELECTRICAL",
+  },
+  {
+    ServiceName: "ECONOMY & LIGHT DUTY DIESEL",
+  },
+  {
+    ServiceName: "USED CAR INSPECTIONS",
+  },
+  {
+    ServiceName: "ALL SERVICES",
+  },
+];
 
 export default function Services() {
     return (
@@ -44,7 +44,7 @@ export default function Services() {
           {services.map((service) => (
             <div key={service.ServiceName} className="">
               <div className="text-center">
-                <button className="bg-gradient-to-b w-[95%] from-hemautoLightGreen via-hemautoGreen to-hemautoMediumGreen text-center hover:bg-gradient-to-tl rounded-lg px-5 py-3 shadow-inner shadow-hemautoDarkGray">
+                <button className="silverbg45 w-full text-center shadow-inner shadow-hemautoGray hover:shadow-hemautoGreen rounded-full px-5 py-3 silverbuttonhover text-hemautoWhite hover:text-hemautoGreen text-shadow-hemautoGray">
                   {service.ServiceName}
                 </button>
               </div>

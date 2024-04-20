@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 class OffersCarousel extends React.Component {
   render() {
     return (
-      <div>
+      <div className="w-[60%]">
         <Carousel
           stopOnHover
           autoPlay
@@ -15,10 +15,10 @@ class OffersCarousel extends React.Component {
           showStatus={false}
           showThumbs={false}
         >
-          <div className="basis-1/2 h-[500px]">
+          <div className="mx-[20%]">
             <img
-              className="block h-[100%] w-[100%]"
-              src="/src/assets/Images/Icons/CarFaxIc.png"
+              className="h-[100%] w-[100%]"
+              src="/src/assets/Images/SilverOutlinedTintedHexagon.png"
               alt=""
             />
           </div>

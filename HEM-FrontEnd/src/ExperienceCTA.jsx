@@ -4,7 +4,7 @@ import useHover from "./useHover";
 export default function ExperienceCTA() {
     const [CTAIsHovering, CTAHoverProps] = useHover();
     return (
-      <div className="flex flex-row-reverse text-hemautoWhite pr-32">
+      <div className="flex flex-row-reverse text-hemautoWhite pr-32 pb-20">
         <div className="flex basis-[40%] hover:scale-125 duration-500 ease-in-out">
           <img
             src="/src/assets/Images/Icons/GreenWrench.svg"

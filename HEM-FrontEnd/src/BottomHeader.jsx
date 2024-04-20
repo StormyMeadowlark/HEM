@@ -1,29 +1,25 @@
 export default function BottomHeader() {
     return (
-      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack to-hemautoGray/0 shadow-inner shadow-hemautoTrueBlack text-hemautoWhite py-4">
+      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack text-hemautoWhite py-4">
         <nav className="mx-auto flex items-center justify-around text-lg font-hemautoFontTiltWarp">
           <div className="flex flex-1 items-center">
             <div className="flex flex-1 justify-start mb-20">
               <div className="flex flex-1 justify-around">
                 <button href="#">
-                  <span className="hover:text-hemautoLightGreen text-3xl">
+                  <span className="hover:text-hemautoGreen text-3xl">
                     SERVICES
                   </span>
                 </button>
                 <button href="#">
-                  <span className="hover:text-hemautoLightGreen text-3xl">
-                    FAQ
-                  </span>
+                  <span className="hover:text-hemautoGreen text-3xl">FAQ</span>
                 </button>
                 <button href="#">
-                  <span className="hover:text-hemautoLightGreen text-3xl">
+                  <span className="hover:text-hemautoGreen text-3xl">
                     ABOUT
                   </span>
                 </button>
                 <button href="#">
-                  <span className="hover:text-hemautoLightGreen text-3xl">
-                    BLOG
-                  </span>
+                  <span className="hover:text-hemautoGreen text-3xl">BLOG</span>
                 </button>
               </div>
             </div>
@@ -42,12 +38,12 @@ export default function BottomHeader() {
             </div>
             <div className="flex flex-1 justify-around mb-20 ">
               <div className="flex flex-1 justify-around">
-                <button href="#" className="text-3xl">
+                <button href="#" className="text-3xl hover:text-hemautoGreen">
                   ACCOUNT (module)
                 </button>
               </div>
               <div className="flex flex-1 justify-around">
-                <button href="#" className="text-3xl">
+                <button href="#" className="text-3xl hover:text-hemautoGreen">
                   REGISTER (module)
                 </button>
               </div>

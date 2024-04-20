@@ -6,7 +6,7 @@ export default function LandingExperience() {
   const [DealershipIsHovering, DealershipHoverProps] = useHover()
   return (
     <div className="mt-[-2px]">
-      <div className="flex">
+      <div className="flex pt-20 mb-20">
         <h1 className="green-text-shadow text-center justify-center font-extrabold font-hemautoFontUrbanist text-6xl text-hemautoLightGray">
           AUTO REPAIR FOR
           <div className="font-hemautoFontPlay text-hemautoWhite text-9xl">
@@ -34,7 +34,7 @@ export default function LandingExperience() {
           </div>
         </div>
       </div>
-      <div className="flex flex-1 justify-evenly">
+      <div className="flex flex-1 justify-evenly text-hemautoGreen text-shadow-hemautoGray">
         <button {...RetailHoverProps} className="relative mx-20">
           <img
             src="src/assets/Images/SilverOutlinedTintedHexagon.png"

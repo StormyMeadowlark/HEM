@@ -3,11 +3,11 @@ import GreenCTA from "./GreenCTA";
 
 export default function ShoutOuts() {
     return (
-      <div className="bg-ShoutOutBackground bg-no-repeat bg-top bg-cover outline outline-hemautoTrueBlack ">
-        <p className="text-center font-hemautoFontRoadRage text-9xl pb-8">
-          Our service shop is proudly backed by:
+      <div className="bg-HexagonCarbonFiber bg-no-repeat bg-top bg-cover outline outline-hemautoTrueBlack pt-[5%]">
+        <p className="text-center font-hemautoFontRoadRage tracking-wide text-9xl pt-20 mb-20">
+          OUR SERVICE CENTER IS A PROUD
         </p>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly pt-10">
           <div>
             <CarFaxImg />
           </div>
@@ -18,7 +18,9 @@ export default function ShoutOuts() {
         <div className="flex justify-center pl-[33%]">
           <button className="relative w-[750px] hover:scale-125 transition duration-500 ease-in-out">
             <GreenCTA />
-            <p className="green-cta-text-shadow absolute w-full inset-y-[45%] text-5xl font-hemautoUrbanist font-extrabold text-hemautoGray">CALL TO SCHEDULE</p>
+            <p className="green-cta-text-shadow absolute w-full inset-y-[45%] text-5xl font-hemautoUrbanist font-extrabold text-hemautoGray">
+              CALL TO SCHEDULE
+            </p>
           </button>
         </div>
       </div>
