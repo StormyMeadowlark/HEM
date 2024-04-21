@@ -1,5 +1,5 @@
 import CarFaxImg from "./carfaxbadge";
-import GreenCTA from "./GreenCTA";
+import useWrenchCTA from "./ExperienceCTA";
 
 export default function ShoutOuts() {
     return (
@@ -15,13 +15,10 @@ export default function ShoutOuts() {
             <p>A+ BBB</p>
           </div>
         </div>
-        <div className="flex justify-center pl-[33%]">
-          <button className="relative w-[750px] hover:scale-125 transition duration-500 ease-in-out">
-            <GreenCTA />
-            <p className="green-cta-text-shadow absolute w-full inset-y-[45%] text-5xl font-hemautoUrbanist font-extrabold text-hemautoGray">
-              CALL TO SCHEDULE
-            </p>
-          </button>
+        <div className="flex justify-center">
+          <div>
+            {useWrenchCTA("Call to schedule", "(785) 730-2900")}
+          </div>
         </div>
       </div>
     );

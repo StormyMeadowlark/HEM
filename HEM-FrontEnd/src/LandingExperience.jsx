@@ -1,5 +1,5 @@
 import useHover from "./useHover"
-
+import ExperienceCTA from "./ExperienceCTA"
 export default function LandingExperience() {
   const [FleetIsHovering, FleetHoverProps] = useHover()
   const [RetailIsHovering, RetailHoverProps] = useHover()
@@ -66,6 +66,7 @@ export default function LandingExperience() {
           </div>
         </button>
       </div>
+      <div>{ExperienceCTA("Click Me", "Learn More")}</div>
     </div>
   );
 }

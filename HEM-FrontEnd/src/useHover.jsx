@@ -6,5 +6,5 @@ export default function useHover() {
         onMouseEnter:  () => setHovering(true),
         onMouseLeave: () => setHovering(false),
     }
-    return [hovering, onHoverProps]
+    return [hovering, onHoverProps,]
 }
