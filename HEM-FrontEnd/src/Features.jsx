@@ -38,12 +38,12 @@ export default function Features() {
     return (
       <div className="px-10 py-8">
         <div>
-          <h1 className="text-7xl text-center font-hemautoFontPlay text-hemautoLightGray">
+          <h1 className="text-7xl text-center font-hemautoFontPlay text-hemautoWhite">
             <span className="text-hemautoGreen font-extrabold">YOUR</span>{" "}
             Topeka, KS<br></br>
             high-end mechanics.
           </h1>
-          <p className="mx-auto mt-5 max-w-prose text-4xl font-hemautoFontUrbanist font-light text-center">
+          <p className="text-hemautoLightGray mx-auto mt-5 max-w-prose text-4xl font-hemautoFontUrbanist font-light text-center">
             Providing full-service maintenance & repair<br></br>
             for most automotive & light-duty diesel<br></br>
             makes & models manufactured after 2000.
@@ -60,12 +60,12 @@ export default function Features() {
                         <feature.icon className="h-8 w-8" aria-hidden="true" />
                       </span>
                     </div>
-                    <div className="justify-evenly shadow-md shadow-hemautoGreen/50 rounded-3xl">
+                    <div className="justify-evenly shadow-inner shadow-hemautoGreen rounded-3xl">
                       <div className="bg-hemautoGray/75 text-hemautoWhite rounded-3xl">
                         <h3 className="p-8 text-4xl font-hemautoFontPlay font-semibold">
                           {feature.name}
                         </h3>
-                        <p className="px-8 pb-8 text-2xl font-hemautoFontUrbanist font-medium text-hemautoLightGray">
+                        <p className="px-8 pb-8 text-2xl font-hemautoFontUrbanist font-light text-hemautoLightGray">
                           {feature.description}
                         </p>
                       </div>

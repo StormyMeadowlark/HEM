@@ -29,14 +29,14 @@ export default function TopHeader() {
             <a
               className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
               alt="youtube Icon"
-              href="https://www.youtube.com/hemautomotive"
+              href="https://www.youtube.com/@hemautomotive"
             >
               <img src="src/assets/Images/Icons/YouTubeIcon.png"></img>
             </a>
             <a
               className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
               alt="Tiktok Icon"
-              href="https://www.tiktok.com/hemautomotive"
+              href="https://www.tiktok.com/@hemautomotive"
             >
               <img src="src/assets/Images/Icons/TikTokIcon.png"></img>
             </a>
@@ -82,46 +82,39 @@ export default function TopHeader() {
         </li>
         <li className="group relative dropdown font-hemautoFontRoadRage text-3xl hover:text-hemautoGreen tracking-wide">
           <a>LEAVE US A REVIEW</a>
-          <div className="group-hover:flex flex-row dropdown-menu absolute justify-evenly hidden silverbg py-2 px-2 rounded-full shadow-inner shadow-hemautoBlack w-[300px]">
+          <div className="group-hover:flex flex-1 dropdown-menu absolute justify-evenly hidden silverbg py-2 px-2 rounded-full shadow-inner shadow-hemautoBlack w-[300px]">
             <a
               className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
               alt="BBB"
-              href="https://www.bbb.org"
+              href="https://www.bbb.org/us/ks/topeka/profile/auto-repair/hem-auto-0714-1000057650"
             >
               <img src="src/assets/Images/Icons/BBBIcon.png"></img>
             </a>
             <a
               className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
               alt="Google Icon"
-              href="https://www.google.com"
+              href="https://www.google.com/search?q=HEM+Automotive"
             >
               <img src="src/assets/Images/Icons/GoogleIcon.png"></img>
             </a>
             <a
               className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
               alt="Yelp Icon"
-              href="https://www.yelp.com"
+              href="https://www.yelp.com/biz/hem-automotive-topeka"
             >
               <img src="src/assets/Images/Icons/YelpIcon.png"></img>
             </a>
             <a
               className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
               alt="Bing Icon"
-              href="https://www.bing.com"
+              href="https://www.bing.com/search?q=hem+automotive"
             >
               <img src="src/assets/Images/Icons/BingIcon.png"></img>
             </a>
             <a
               className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
-              alt="Yahoo Icon"
-              href="https://www.yahoo.com"
-            >
-              <img src="src/assets/Images/Icons/YahooIcon.png"></img>
-            </a>
-            <a
-              className="text-hemautoGreen m-2 hover:text-hemautoLightGreen"
               alt="CarFax Icon"
-              href="https://www.carfax.com"
+              href="https://www.carfax.com/Reviews-HEM-Automotive-Topeka-KS_AUBYLTNNVJ"
             >
               <img src="src/assets/Images/Icons/CarFaxIcon.png"></img>
             </a>
