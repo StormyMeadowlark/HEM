@@ -3,7 +3,7 @@ import useWrenchCTA from "./ExperienceCTA";
 
 export default function ShoutOuts() {
     return (
-      <div>
+      <div className="px-[10%]">
         <p className="text-center font-hemautoFontRoadRage tracking-wide text-8xl">
           OUR SERVICE CENTER IS A PROUD
         </p>
@@ -16,9 +16,7 @@ export default function ShoutOuts() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="basis-[80%]">
             {useWrenchCTA("Call to schedule", "(785) 730-2900")}
-          </div>
         </div>
       </div>
     );

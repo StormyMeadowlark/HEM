@@ -15,7 +15,7 @@ class OffersCarousel extends React.Component {
           showStatus={false}
           showThumbs={false}
         >
-          <div className="mx-[20%]">
+          <div className="m-[20%]">
             <img
               className="h-[100%] w-[100%]"
               src="/src/assets/Images/FrontEndTextBox.png"

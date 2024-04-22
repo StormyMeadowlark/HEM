@@ -37,8 +37,8 @@ const features = [
 export default function Features() {
     return (
       <div className="px-[10%] py-8">
-        <div className="flex px-20 pt-20 justify-evenly font-hemautoFontPlay py-10">
-          <h3 className="text-8xl text-center font-extrabold pr-20">
+        <div className="flex p-20 justify-evenly font-hemautoFontPlay">
+          <h3 className="text-8xl text-center font-extrabold">
             <span className="text-hemautoGreen font-extrabold">YOUR </span>
             Topeka, KS<br></br>
             high-end mechanics.
@@ -56,11 +56,11 @@ export default function Features() {
             </div>
           </div>
         </div>
-        <div className="pt-20 px-[10%] ">
+        <div>
           <div className="grid grid-cols-3 text-balance">
             {features.map((feature) => (
               <div key={feature.name} className="hover:scale-110">
-                <div className="rounded-lg bg-gray-50 px-6 pb-8 text-center">
+                <div className="rounded-lg bg-gray-50 px-8 text-center">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center rounded-xl p-3 shadow-lg">

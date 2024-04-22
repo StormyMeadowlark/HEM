@@ -5,33 +5,22 @@ export default function LandingExperience() {
   const [RetailIsHovering, RetailHoverProps] = useHover()
   const [DealershipIsHovering, DealershipHoverProps] = useHover()
   return (
-    <div className="px-[10%]">
-      <div className="flex pt-20 mb-20 px-10">
-        <h1 className="green-text-shadow text-center justify-center font-extrabold font-hemautoFontUrbanist text-6xl text-hemautoLightGray">
-          AUTO REPAIR FOR
-          <div className="font-hemautoFontPlay text-hemautoWhite text-9xl">
-            YOU & YOUR BUSINESS
-          </div>
-        </h1>
-        <div className="flex basis-1/2 text-center font-hemautoFontUrbanist text-4xl py-10 px-10">
-          <div className="relative">
-            <div className="outline outline-hemautoGreen p-10 skew-x-[-30deg] shadow-inner shadow-hemautoGreen">
-              <div className="text-hemautoWhite/0">
-                No matter the number or type, we make sure
-              </div>
-              <div className="text-hemautoWhite/0">
-                breakdowns won&apos;t break you down!
-              </div>
-            </div>
-            <h2 className="relative bg-gradient-to-b from-hemautoBlack via-hemautoDarkGray to-hemautoGray p-10 skew-x-[-30deg] mt-[-7rem] shadow-inner shadow-hemautoLightGray">
-              <div className="skew-x-[30deg]">
-                No matter the number or type, we make sure
-              </div>
-              <div className="skew-x-[30deg] text-hemautoGreen font-hemautoFontPlay text-5xl">
-                breakdowns WON&apos;T break you down!
-              </div>
-            </h2>
-          </div>
+    <div className="px-[10%] ">
+      <div className="flex p-20 justify-evenly font-hemautoFontPlay">
+        <h3 className="text-8xl text-center font-extrabold">
+          <span className="text-hemautoGreen font-extrabold">
+            AUTO REPAIR FOR
+          </span>
+          <br></br>you & your vehicles.
+        </h3>
+        <div className="flex items-center">
+          <h2 className="text-5xl text-center text-hemautoLightGray pb-4">
+            No matter the number or type,<br></br>
+            <span className="text-4xl">we make sure, </span>
+            <span className="text-hemautoGreen text-4xl">
+              breakdowns WON&apos;T break you down!
+            </span>
+          </h2>
         </div>
       </div>
       <div className="flex flex-1 justify-evenly text-hemautoGreen text-shadow-hemautoGray">

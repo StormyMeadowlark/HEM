@@ -16,7 +16,7 @@ class Gallery extends React.Component {
           showStatus={false}
           showThumbs={false}
         >
-          <div className="basis-1/2 px-8 py-20">
+          <div className="basis-1/2 p-20">
             <img className= "block h-[100%] w-[100%]" src="src/assets/Images/Icons/CarFaxIcon.png" alt="" />
           </div>
           <img

@@ -1,10 +1,11 @@
 import OffersCarousel from "./OffersCarousel";
 export default function OnlineOffers() {
     return (
-      <div className="">
+      <div className="mx-[10%] py-8">
         <div>
-          <h2 className="text-center font-hemautoFontPlay text-8xl font-semibold pt-[10rem]  text-hemautoWhite">
-            EXCLUSIVE<br></br>ONLINE OFFERS
+          <h2 className="text-center font-hemautoFontPlay text-8xl font-extrabold text-hemautoGreen">
+            EXCLUSIVE<br></br>
+            <span className="text-hemautoWhite">ONLINE OFFERS</span>
           </h2>
         </div>
         <div className="flex justify-center">

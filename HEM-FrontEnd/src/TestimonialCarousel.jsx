@@ -15,10 +15,9 @@ class TestimonialCarousel extends React.Component {
           showStatus={false}
           showThumbs={false}
         >
-          <div className="block mt-20 mx-[20%] justify-center my-10">
+          <div className="block my-20 mx-[10%] justify-center ">
             <p
-              className="inline-block h-[100%] w-[100%] text-justify text-3xl bg-hemautoTrueBlack/75 px-6 py-8 rounded-3xl shadow-inner shadow-hemautoGreen/50"
-              alt=""
+              className="inline-block h-[100%] w-[100%] text-justify text-3xl bg-hemautoTrueBlack/75 p-8 rounded-3xl shadow-inner shadow-hemautoGreen/50"
             >
               HEM Automotive never disappoints. They repair in a timely manner
               with a fair price. Anytime I&apos;ve taken my vehicle there, Jason
