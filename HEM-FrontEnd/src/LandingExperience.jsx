@@ -5,8 +5,8 @@ export default function LandingExperience() {
   const [RetailIsHovering, RetailHoverProps] = useHover()
   const [DealershipIsHovering, DealershipHoverProps] = useHover()
   return (
-    <div className="mt-[-2px]">
-      <div className="flex pt-20 mb-20">
+    <div className="px-[10%]">
+      <div className="flex pt-20 mb-20 px-10">
         <h1 className="green-text-shadow text-center justify-center font-extrabold font-hemautoFontUrbanist text-6xl text-hemautoLightGray">
           AUTO REPAIR FOR
           <div className="font-hemautoFontPlay text-hemautoWhite text-9xl">
@@ -15,7 +15,7 @@ export default function LandingExperience() {
         </h1>
         <div className="flex basis-1/2 text-center font-hemautoFontUrbanist text-4xl py-10 px-10">
           <div className="relative">
-            <div className="outline outline-hemautoGreen px-10 py-10 skew-x-[-30deg] shadow-inner shadow-hemautoGreen">
+            <div className="outline outline-hemautoGreen p-10 skew-x-[-30deg] shadow-inner shadow-hemautoGreen">
               <div className="text-hemautoWhite/0">
                 No matter the number or type, we make sure
               </div>
@@ -35,30 +35,30 @@ export default function LandingExperience() {
         </div>
       </div>
       <div className="flex flex-1 justify-evenly text-hemautoGreen text-shadow-hemautoGray">
-        <button {...RetailHoverProps} className="relative mx-20">
+        <button {...RetailHoverProps} className="relative mx-8">
           <img
-            src="src/assets/Images/SilverOutlinedTintedHexagon.png"
-            alt="Silver Outlined Tinted Hexagon"
+            src="src/assets/Images/FrontEndTextBox.png"
+            alt=""
             className="object-cover w-full h-full"
           ></img>
           <div className="absolute w-full text-3xl text-center inset-y-1/2 font-hemautoFontPlay font-extrabold">
             {RetailIsHovering ? "Retail Info Here" : "RETAIL"}
           </div>
         </button>
-        <button {...FleetHoverProps} className="relative mx-20">
+        <button {...FleetHoverProps} className="relative mx-8">
           <img
-            src="src/assets/Images/SilverOutlinedTintedHexagon.png"
-            alt="Silver Outlined Tinted Hexagon"
+            src="src/assets/Images/FrontEndTextBox.png"
+            alt=""
             className="object-cover w-full h-full"
           ></img>
           <div className="absolute w-full text-3xl text-center inset-y-1/2 font-hemautoFontPlay font-extrabold">
             {FleetIsHovering ? "Fleet Info Here" : "FLEET"}
           </div>
         </button>
-        <button {...DealershipHoverProps} className="relative mx-20">
+        <button {...DealershipHoverProps} className="relative mx-8">
           <img
-            src="src/assets/Images/SilverOutlinedTintedHexagon.png"
-            alt="Silver Outlined Tinted Hexagon"
+            src="src/assets/Images/FrontEndTextBox.png"
+            alt=""
             className="object-cover w-full h-full"
           ></img>
           <div className="absolute w-full text-3xl text-center inset-y-1/2 font-hemautoFontPlay font-extrabold">

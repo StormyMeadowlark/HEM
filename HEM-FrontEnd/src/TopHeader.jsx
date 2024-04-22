@@ -1,6 +1,6 @@
 export default function TopHeader() {
   return (
-    <div className="bg-gradient-to-b from-hemautoBlack via-hemautoGray to-hemautoBlack shadow-inner shadow-hemautoGray px-8 py-6">
+    <div className="bg-gradient-to-b from-hemautoBlack via-hemautoGray to-hemautoBlack shadow-inner shadow-hemautoGray px-[10%] py-6">
       <ul className="flex flex-row items-center justify-around text-hemautoWhite px-5">
         <li className="group relative dropdown font-hemautoFontRoadRage text-lg tracking-wide hover:text-hemautoGreen">
           <a className="text-3xl">FOLLOW @HEMautomotive</a>

@@ -1,6 +1,6 @@
 export default function BottomHeader() {
     return (
-      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack text-hemautoWhite py-4">
+      <div className="bg-gradient-to-b from-hemautoGray via-hemautoBlack text-hemautoWhite px-[10%]">
         <nav className="flex justify-evenly text-lg font-hemautoFontTiltWarp">
           <div className="flex flex-1 justify-evenly">
             <button href="#">
@@ -17,15 +17,16 @@ export default function BottomHeader() {
               </span>
             </button>
           </div>
-          <div className="max-h-[300px]">
+          <div className="max-h-[100px] mb-20 mt-4">
             <div className="flex flex-col">
-              <button href="#">
+              <button href="#" className="flex justify-center">
                 <img
                   type="xml/svg"
                   src="./src/assets/Images/Logo/HEM-Auto-Logo-Lime-Green.svg"
+                  className="max-w-[300px]"
                 ></img>
               </button>
-              <span className="font-hemautoFontRoadRage text-balance text-5xl text-center">
+              <span className="font-hemautoFontRoadRage justify-center text-balance text-3xl text-center">
                 BREAK DOWNS WONT BREAK YOU DOWN
               </span>
             </div>

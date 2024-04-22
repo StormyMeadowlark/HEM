@@ -4,7 +4,7 @@
     console.log(CarFax);
     return (
         <img
-          className="max-w-[750px]"
+          className="max-w-[500px]"
           src={CarFax}
           alt="Car Fax Service Center Badge"
         />

@@ -2,8 +2,8 @@ import TestimonialCarousel from "./TestimonialCarousel";
 
 export default function LandingTestimonials() {
   return (
-    <div className="bg-reasonsBackground mt-[-1px] bg-no-repeat text-hemautoWhite bg-cover">
-      <div className="pt-20 bg-gradient-to-b from-hemautoTrueBlack via-hemautoGray/50 flex justify-evenly items-center">
+    <div className="text-hemautoWhite">
+      <div className="pt-20 flex justify-evenly items-center">
         <div className="text-center items-center">
           <h2 className="font-hemautoFontRoadRage text-9xl tracking-wide">
             EXPERIENCE THE<br></br>

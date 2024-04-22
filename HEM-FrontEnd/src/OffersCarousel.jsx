@@ -18,7 +18,7 @@ class OffersCarousel extends React.Component {
           <div className="mx-[20%]">
             <img
               className="h-[100%] w-[100%]"
-              src="/src/assets/Images/SilverOutlinedTintedHexagon.png"
+              src="/src/assets/Images/FrontEndTextBox.png"
               alt=""
             />
           </div>

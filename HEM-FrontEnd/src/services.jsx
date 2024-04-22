@@ -39,12 +39,12 @@ const services = [
 
 export default function Services() {
     return (
-      <div className="">
-        <div className="grid grid-cols-3 gap-x-8 gap-y-8 font-hemautoFontUrbanist text-xl text-hemautoDarkGray font-extrabold">
+      <div className="py-20">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-8 font-hemautoFontUrbanist text-xl text-hemautoDarkGray font-extrabold">
           {services.map((service) => (
             <div key={service.ServiceName} className="">
               <div className="text-center">
-                <button className="silverbg45 w-full text-center shadow-inner shadow-hemautoGray hover:shadow-hemautoGreen rounded-full px-4 py-6 silverbuttonhover text-hemautoWhite hover:text-hemautoGreen text-shadow-hemautoGray">
+                <button className="silverbg45 w-full text-center shadow-inner shadow-hemautoGreen hover:shadow-hemautoGray rounded-full px-4 py-6 silverbuttonhover text-hemautoWhite hover:text-hemautoGreen text-shadow-hemautoGray">
                   {service.ServiceName}
                 </button>
               </div>

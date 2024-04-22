@@ -36,23 +36,30 @@ const features = [
 
 export default function Features() {
     return (
-      <div className="px-10 py-8">
-        <div>
-          <h1 className="text-7xl text-center font-hemautoFontPlay text-hemautoWhite">
-            <span className="text-hemautoGreen font-extrabold">YOUR</span>{" "}
+      <div className="px-[10%] py-8">
+        <div className="flex px-20 pt-20 justify-evenly font-hemautoFontPlay py-10">
+          <h3 className="text-8xl text-center font-extrabold pr-20">
+            <span className="text-hemautoGreen font-extrabold">YOUR </span>
             Topeka, KS<br></br>
             high-end mechanics.
-          </h1>
-          <p className="text-hemautoLightGray mx-auto mt-5 max-w-prose text-4xl font-hemautoFontUrbanist font-light text-center">
-            Providing full-service maintenance & repair<br></br>
-            for most automotive & light-duty diesel<br></br>
-            makes & models manufactured after 2000.
-          </p>
+          </h3>
+          <div>
+            <h2 className="text-3xl text-center text-hemautoLightGray pb-4">
+              Providing full-service maintenance & repair<br></br>
+              for most automotive & light-duty diesel<br></br>
+              makes & models manufactured after 2000.
+            </h2>
+            <div className="transition ease-in-out text-center silverbg45 py-4 rounded skew-x-[-30deg] shadow-inner shadow-hemautoGreen hover:scale-110 duration-300">
+              <button className="skew-x-[30deg] font-hemautoFontPlay font-extrabold text-3xl text-hemautoGreen green-text-shadow">
+                BOOK NOW
+              </button>
+            </div>
+          </div>
         </div>
-        <div className="mt-20 mx-[10%] ">
+        <div className="pt-20 px-[10%] ">
           <div className="grid grid-cols-3 text-balance">
             {features.map((feature) => (
-              <div key={feature.name} className="">
+              <div key={feature.name} className="hover:scale-110">
                 <div className="rounded-lg bg-gray-50 px-6 pb-8 text-center">
                   <div className="-mt-6">
                     <div>
@@ -60,8 +67,8 @@ export default function Features() {
                         <feature.icon className="h-8 w-8" aria-hidden="true" />
                       </span>
                     </div>
-                    <div className="justify-evenly shadow-inner shadow-hemautoGreen rounded-3xl">
-                      <div className="bg-hemautoGray/75 text-hemautoWhite rounded-3xl">
+                    <div className="justify-evenly shadow-inner shadow-hemautoGreen/100 rounded-3xl">
+                      <div className="bg-hemautoTrueBlack/75 text-hemautoGreen rounded-3xl">
                         <h3 className="p-8 text-4xl font-hemautoFontPlay font-semibold">
                           {feature.name}
                         </h3>
