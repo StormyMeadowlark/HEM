@@ -1,5 +1,5 @@
-import CarFaxImg from "./carfaxbadge";
-import useWrenchCTA from "./ExperienceCTA";
+import CarFaxImg from "../ComponentParts/carfaxbadge";
+import useWrenchCTA from "../ComponentParts/ExperienceCTA";
 
 export default function ShoutOuts() {
     return (

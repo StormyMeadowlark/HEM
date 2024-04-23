@@ -1,9 +1,9 @@
-import useHover from "./useHover"
-import ExperienceCTA from "./ExperienceCTA"
+import useHover from "../ComponentParts/useHover";
+import ExperienceCTA from "../ComponentParts/ExperienceCTA";
 export default function LandingExperience() {
-  const [FleetIsHovering, FleetHoverProps] = useHover()
-  const [RetailIsHovering, RetailHoverProps] = useHover()
-  const [DealershipIsHovering, DealershipHoverProps] = useHover()
+  const [FleetIsHovering, FleetHoverProps] = useHover();
+  const [RetailIsHovering, RetailHoverProps] = useHover();
+  const [DealershipIsHovering, DealershipHoverProps] = useHover();
   return (
     <div className="px-[10%] ">
       <div className="flex p-20 justify-evenly font-hemautoFontPlay">

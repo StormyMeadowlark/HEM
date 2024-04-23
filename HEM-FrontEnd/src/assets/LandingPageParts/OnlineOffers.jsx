@@ -1,4 +1,4 @@
-import OffersCarousel from "./OffersCarousel";
+import OffersCarousel from "../ComponentParts/OffersCarousel";
 export default function OnlineOffers() {
     return (
       <div className="mx-[10%] py-8">

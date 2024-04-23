@@ -1,4 +1,4 @@
-import RandomVehicleSectionTitle from "./RandomVehicleSectionTitle";
+import RandomVehicleSectionTitle from "../ComponentParts/RandomVehicleSectionTitle";
 export default function LandingRandomVehicle() {
   return (
     <div className="bg-hemautoDarkGray mx-[5%] mb-20">

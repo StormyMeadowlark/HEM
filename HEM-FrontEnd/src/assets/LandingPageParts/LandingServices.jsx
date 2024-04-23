@@ -1,5 +1,5 @@
-import Gallery from "./Carousel";
-import Services from "./assets/ComponentParts/services";
+import Gallery from "../ComponentParts/Carousel";
+import Services from "../ComponentParts/services";
 
 export default function LandingServices() {
   return (
